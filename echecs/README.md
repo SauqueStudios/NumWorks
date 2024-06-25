@@ -23,3 +23,14 @@ Pour installer le jeu d'échecs, il suffit de se rendre sur le site de NumWorks 
 - Affichage de l'échec et de l'échec et mat
 - Affichage du pat
 - Affichage de la nulle par manque de matériel
+- Menu de configuration
+- Sauvegarde et chargement des parties
+
+### Utilisation
+
+- Pour jouer, il suffit d'exécuter le script `echecs.py`.
+- Pour déplacer une pièce, il suffit de sélectionner la pièce à déplacer puis de sélectionner la case de destination en utilisant les flèches directionnelles et la touche `OK` pour valider le coup.
+- Pour annuler un coup, il suffit de cliquer sur le bouton `BACK`.
+- Pour revenir en arrière dans la partie, il faut utiliser les boutons `shift` (pour aller en arrière) et `backspace` (pour aller en avant).
+- Pour afficher le menu, il suffit de cliquer sur le bouton `HOME`.
+- Pour sauvegarder la partie, il suffit de quitter la partie puis de copier les lignes qui se sont affichées et de les coller dans le script `parties_echecs.py` entre les crochets.
