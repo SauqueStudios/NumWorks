@@ -4,14 +4,13 @@
 
 Le jeu d'échecs est un jeu de stratégie combinatoire abstrait pour deux joueurs. Le but du jeu est de mettre le roi adverse en échec et mat, c'est-à-dire qu'il ne peut plus bouger sans être capturé.
 
-!(./assets/home.jpg)
-
+![home](./assets/home.jpg) ![start](./assets/start.jpg) ![game](./assets/game.jpg) ![settings](./assets/settings.jpg)
 ### Installation
 
 Pour installer le jeu d'échecs, il suffit de se rendre sur le site de NumWorks et d'installer les scripts suivants :
-- ![pieces_echecs.py](https://my.numworks.com/python/caucaucybu/pieces_echecs.py)
-- ![parties_echecs.py](https://my.numworks.com/python/caucaucybu/parties_echecs.py)
-- ![echecs.py](https://my.numworks.com/python/caucaucybu/echecs.py)
+- [pieces_echecs.py](https://my.numworks.com/python/caucaucybu/pieces_echecs.py)
+- [parties_echecs.py](https://my.numworks.com/python/caucaucybu/parties_echecs.py)
+- [echecs.py](https://my.numworks.com/python/caucaucybu/echecs.py)
 
 ### Fonctionnalités
 
