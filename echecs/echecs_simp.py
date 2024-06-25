@@ -218,5 +218,5 @@ class Y(Z):
     sf.rt+=1
     if sf.t:sf.t=0
     else:sf.t=1
-    dt(sr(len(sf.pe)),0,100);break
+    break
 gm=Y();gm.sa()
