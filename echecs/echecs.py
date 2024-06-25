@@ -478,7 +478,6 @@ class Game(PreGame):
           self.tour = 0
         else:
           self.tour = 1
-        draw_txt(str(len(self.partie)),0,100)
         break
         
 

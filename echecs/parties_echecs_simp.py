@@ -163,8 +163,8 @@ class S:
    if g["x"]==tp["x"]and g["y"]==tp["y"]and g["i"]==tp["i"]:av[0]=i
    if g[1]==pt[i]:av[1]=i
    if g[0]==pt[i]:av[2]=i
-  op=(" Ne pas changer "," Changer plateau"),(" Tout les tours ","   Tour blanc   ","    Tour noir   "),"Tourner plateau"," Tourner blancs"," Tourner noirs ";ca=(op[0][sf.c],op[1][ts])-op[2:];ds=(35,58,135,160,185);dt("<"+ca[0]+">",70,35,CR,CD);dt(ca[1],80,58,CX if sf.c else CU,CD)
-  for i in p:i.d(decy=-15)
+  op=(" Ne pas changer "," Changer plateau"),(" Tout les tours ","   Tour blanc   ","    Tour noir   "),"Tourner plateau"," Tourner blancs"," Tourner noirs ";ca=(op[0][sf.c],op[1][ts])+op[2:];ds=(35,58,135,160,185);dt("<"+ca[0]+">",70,35,CR,CD);dt(ca[1],80,58,CX if sf.c else CU,CD)
+  for i in p:i.d(dy=-15)
   for i,v in ee(op[2:]):dt(v,80,135+25*i,CX,CD)
   while 1:
    try:k=gk()
@@ -175,6 +175,7 @@ class S:
     if s==0:
      sf.c=not sf.c
      if not sf.c:ts=0;dt(op[1][0],80,ds[1],CU,CD)
+     else:dt(op[1][ts],80,ds[1],CX,CD)
     elif s==1:
      ts+=(k==4)+(k==3)-(k==0);ts%=3
      if ts==1:g=sf.ss[1]
@@ -191,7 +192,7 @@ class S:
     else:g=sf.b
     g.update({1:pt[av[1]],0:pt[av[2]]});g.update(tt[av[0]]);se.update(g)
    ca=(op[0][sf.c],op[1][ts])+op[2:]
-   for i in p:i.d(decy=-15)
+   for i in p:i.d(dy=-15)
    dt("<"+ca[s]+">",70,ds[s],CR,CD)
  def o(sf):
   d(0,0,320,222,(0,)*3)

@@ -334,6 +334,8 @@ class Settings:
           if not self.chang:
             sousselect = 0
             draw_txt(options[1][0], 80, dists[1], COLOR_UNSELECT, COLOR_BACKGROUND)
+          else:
+            draw_txt(options[1][sousselect], 80, dists[1], COLOR_TXT, COLOR_BACKGROUND)
         elif selection == 1:
           sousselect += (k==4) + (k==3) - (k==0)
           sousselect %= 3
