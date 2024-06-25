@@ -4,7 +4,7 @@
 
 Le jeu d'échecs est un jeu de stratégie combinatoire abstrait pour deux joueurs. Le but du jeu est de mettre le roi adverse en échec et mat, c'est-à-dire qu'il ne peut plus bouger sans être capturé.
 
-![home](./assets/home.jpg) ![start](./assets/start.jpg) ![game](./assets/game.jpg) ![settings](./assets/settings.jpg)
+![home](./assets/home.png) ![start](./assets/start.png) ![game](./assets/game.png) ![settings](./assets/settings.png)
 ### Installation
 
 Pour installer le jeu d'échecs, il suffit de se rendre sur le site de NumWorks et d'installer les scripts suivants :
