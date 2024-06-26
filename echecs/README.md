@@ -34,3 +34,7 @@ Pour installer le jeu d'échecs, il suffit de se rendre sur le site de NumWorks 
 - Pour revenir en arrière dans la partie, il faut utiliser les boutons `shift` (pour aller en arrière) et `backspace` (pour aller en avant).
 - Pour afficher le menu, il suffit de cliquer sur le bouton `HOME`.
 - Pour sauvegarder la partie, il suffit de quitter la partie puis de copier les lignes qui se sont affichées et de les coller dans le script `parties_echecs.py` entre les crochets.
+
+### Structure
+
+Le code est divisé en trois scripts pour éviter les `MemoryError`. De plus, le code existe sous une forme explicite mais aussi sous une forme optimisée pour prendre le moins de place possible. Cela concerne les scripts qui finissent par `_simp.py`.
