@@ -1,4 +1,4 @@
-from pieces_echecs_simp import *
+from pieces_echecs import *
 from ion import keydown as ke
 CW=(255,125,123)
 CX=(99,60,0)
@@ -192,7 +192,7 @@ class S:
     else:g=sf.b
     g.update({1:pt[av[1]],0:pt[av[2]]});g.update(tt[av[0]]);se.update(g)
    ca=(op[0][sf.c],op[1][ts])+op[2:]
-   for i in p:i.d(dy=-15)
+   for i in p:i.d(decy=-15)
    dt("<"+ca[s]+">",70,ds[s],CR,CD)
  def o(sf):
   d(0,0,320,222,(0,)*3)
