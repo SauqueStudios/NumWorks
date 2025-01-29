@@ -60,7 +60,7 @@ class P(C):
  def __init__(sf,*a,sl=0,cg=None,**ka):
   sf.sl=sl;super().__init__(*a,**ka)
   if cg:sf.sg(cg)
- def __repr__(sf):a=set(dir(sf));return(sf.n.upper()if sf.c else sf.n)+("," if a else"")+",".join([sr(ga(sf,i))for i in set(dir(sf)).difference(["x","y","c"])if z(ga(sf,i))is it])
+ def __repr__(sf):a=set(dir(sf));return(sf.n.upper()if sf.c else sf.n)+("," if a else"")+",".join([sr(ga(sf,i))for i in set(dir(sf)).difference(["x","y","c","sl","sd"])if z(ga(sf,i))is it])
  def sg(sf,cg):sf.gt=it(cg[0])
  def tg(sf,x,y):
   if sf.sl:return 1
